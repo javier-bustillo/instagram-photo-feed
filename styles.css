@@ -1,0 +1,90 @@
+body {
+    background: rgb(241, 238, 238);
+    margin: 0;
+}
+
+header {
+    background: white;
+    padding: 10px;
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+div.post {
+    background: white;
+    margin: 20px;
+    border-radius: 4px;
+}
+
+div.post h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+div.post p {
+    font-family: 'Roboto', sans-serif;
+}
+
+div.post img {
+    width: 100%;
+}
+
+div.post .post-header div:first-child {
+    display: inline-block;
+    width: 80%;
+
+
+}
+
+div.post .post-header div:last-child {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+
+}
+
+div.post .post-header div:last-child span {
+    display: inline-block;
+    width: 20%;
+    padding-right: 40px;
+    text-align: right;
+    color: lightgray;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.post h2,
+div.post p {
+    padding: 10px;
+    margin: 0;
+}
+
+div.container {
+    width: 600px;
+    margin: auto;
+}
+
+.container div.post:first-child {
+    margin-top: 60px;
+}
+
+.post .post-header-special {
+    display: flex;
+    margin-bottom: 90px;
+    border-bottom: 1px solid rgb(238, 235, 235);
+}
+
+.post .post-footer-special {
+    margin-top: 90px;
+    border-top: 1px solid rgb(238, 235, 235);
+}
+
+.post .post-header-special div:nth-child(2) {
+    margin-top: 17px;
+    margin-left: 245px;
+    color: lightgray;
+    font-family: 'Roboto', sans-serif;
+}
+
+
